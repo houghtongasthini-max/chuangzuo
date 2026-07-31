@@ -1,6 +1,6 @@
-# 创作仓库 (chuangzuo Repository)
+# AI 拟真连续图片叙事工作流研究档案 (chuangzuo Repository)
 
-本仓库为 **AI 伪纪实图文/短视频爆款内容创作矩阵** 的核心储存库，收录了从工作流 1.0 到 3.0 的全套提示词工程（Prompt Engineering）、演进门禁、数据反馈以及产出的所有作品案卷。
+本仓库记录一套 AI 拟真连续图片叙事工作流的建立、试验与迭代过程，包含从 1.0 到 3.0 的提示词体系、作品创作档案、失败版本、数据反馈和复盘记录。
 
 ---
 
@@ -8,24 +8,24 @@
 
 ```
 chuangzuo/
-├─ README.md                     # 本文档：仓库主索引与使用指引
-├─ WORKFLOW_TIMELINE.md          # 工作流演进与作品产出完整时间线
+├─ README.md                     # 本文档：项目定位与全局导航
+├─ WORKFLOW_TIMELINE.md          # 工作流演进与作品试验时间线
 │
-├─ workflow/                     # 提示词工作流模块 (按版本管理)
-│  ├─ v1.0/                      # 基础三段式工作流 (Prompt3~5)
+├─ workflow/                     # 提示词工作流模块 (按版本迭代)
+│  ├─ v1.0/                      # 1.0 基础三段式工作流 (Prompt3~5)
 │  │  ├─ README.md
 │  │  └─ prompts/
-│  ├─ v2.0-transition/           # 2.0 过渡期工作流与多方案融合测试
+│  ├─ v2.0-transition/           # 2.0 过渡期工作流与多方案竞演试验
 │  │  ├─ README.md
 │  │  └─ prompts/
-│  ├─ v2.1-rejected/             # 2.1 被否决版本及败因复盘
+│  ├─ v2.1-rejected/             # 2.1 被否决版本及规则过载复盘
 │  │  ├─ README.md
-│  │  └─ failure-review.md
-│  └─ v3.0-current/              # 3.0 当前最新量产工作流标准体系
+│  │  └─ failure-review.md       # 《v2.1 失败复盘报告》
+│  └─ v3.0-current/              # 3.0 当前拟真叙事工作流标准体系
 │     ├─ README.md
 │     └─ prompts/
 │
-├─ works/                        # 作品归档模块 (按日期与版本命名)
+├─ works/                        # 作品创作档案 (按日期与版本归档)
 │  ├─ 2026-07-22-demo-商场撤离图/
 │  ├─ 2026-07-23-v1.0-长城烽火/
 │  ├─ 2026-07-24-v1.0-零号线/
@@ -35,9 +35,9 @@ chuangzuo/
 │  ├─ 2026-07-27-v3.0-白雀谷气象站/
 │  └─ 2026-07-28-v3.0-返厂旧手机/
 │
-├─ feedback/                     # 平台数据反馈与复盘记录
-│  ├─ data-feedback.md           # 核心作品播放/爆款指标数据汇总
-│  ├─ improvement-log.md        # 迭代改进意见与优化记录
+├─ feedback/                     # 数据反馈与复盘记录
+│  ├─ data-feedback.md           # 作品数据与评论反馈汇总
+│  ├─ improvement-log.md        # 工作流改进日志
 │  └─ retrospective-template.md  # 创作复盘标准模板
 │
 └─ assets/                       # 媒体资产与参考档案
@@ -47,19 +47,20 @@ chuangzuo/
 
 ---
 
-## 🛠️ 当前推荐工作流 (Current Standard Workflow)
+## 💡 工作流核心理念 (Workflow Core Principles)
 
-对于新的图文/短视频爆款创作，**必须统一使用 [workflow/v3.0-current/](file:///c:/Users/72998/Desktop/优化版/workflow/v3.0-current) 的提示词标准**：
-
-1. **选题创作与筛选**：运行 `Prompt3-选题创作版-3.0.md` 并通过 `融合审查-选题-3.0.md` 进行门禁过滤。
-2. **故事骨架与剧本**：运行 `Prompt4-故事创作版-3.0.md` 并通过 `融合审查-故事-3.0.md` 校验能动性与情绪变轨。
-3. **视觉导演与生图**：运行 `Prompt5-视觉导演与生图提示词-3.0.md` 导出分镜提示词。
+在 v3.0 版本中，工作流已从早期的单套模板拓展为完整的**拟真类型叙事**体系，重点关注五大叙事维度：
+1. **记录门槛**：现实入口是否秒懂，凭证链是否具备物理可信度。
+2. **故事活性**：人物是否具备独立能动性，而非规则机械执行器。
+3. **情绪驱动力**：从单纯微恐/悬疑转向情感变轨与高情绪回报。
+4. **视觉变化**：分镜间景别与视觉焦点的连续推进。
+5. **结构距离**：主动与既有爆款题材拉开差异，防止同质化。
 
 ---
 
 ## 📖 相关文档与快捷入口
 
-* [工作流演进与作品时间线](file:///c:/Users/72998/Desktop/优化版/WORKFLOW_TIMELINE.md)
-* [v3.0 工作流规范](file:///c:/Users/72998/Desktop/优化版/workflow/v3.0-current/README.md)
-* [v2.1 失败复盘报告](file:///c:/Users/72998/Desktop/优化版/workflow/v2.1-rejected/failure-review.md)
-* [全站数据反馈汇总](file:///c:/Users/72998/Desktop/优化版/feedback/data-feedback.md)
+* [工作流演进与作品时间线](WORKFLOW_TIMELINE.md)
+* [v3.0 工作流规范说明](workflow/v3.0-current/README.md)
+* [v2.1 失败复盘报告](workflow/v2.1-rejected/failure-review.md)
+* [全站数据反馈汇总](feedback/data-feedback.md)

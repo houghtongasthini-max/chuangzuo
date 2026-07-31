@@ -20,17 +20,17 @@ graph TD
 ```
 
 ## 关键文档清单
-- [00-工作流3.0-使用说明与改进逻辑.md](file:///c:/Users/72998/Desktop/优化版/workflow/v3.0-current/prompts/00-工作流3.0-使用说明与改进逻辑.md)
-- [01-Prompt3-选题创作版-3.0.md](file:///c:/Users/72998/Desktop/优化版/workflow/v3.0-current/prompts/01-Prompt3-选题创作版-3.0.md)
-- [02-融合审查-选题-3.0.md](file:///c:/Users/72998/Desktop/优化版/workflow/v3.0-current/prompts/02-融合审查-选题-3.0.md)
-- [03-Prompt4-故事创作版-3.0.md](file:///c:/Users/72998/Desktop/优化版/workflow/v3.0-current/prompts/03-Prompt4-故事创作版-3.0.md)
-- [04-融合审查-故事-3.0.md](file:///c:/Users/72998/Desktop/优化版/workflow/v3.0-current/prompts/04-融合审查-故事-3.0.md)
-- [05-Prompt5-视觉导演与生图提示词-3.0.md](file:///c:/Users/72998/Desktop/优化版/workflow/v3.0-current/prompts/05-Prompt5-视觉导演与生图提示词-3.0.md)
-- [06-跨文件合同与术语表.md](file:///c:/Users/72998/Desktop/优化版/workflow/v3.0-current/prompts/06-跨文件合同与术语表.md)
-- [07-离线回归测试模板.md](file:///c:/Users/72998/Desktop/优化版/workflow/v3.0-current/prompts/07-离线回归测试模板.md)
-- [08-删改审计与一致性检查.md](file:///c:/Users/72998/Desktop/优化版/workflow/v3.0-current/prompts/08-删改审计与一致性检查.md)
-- [底层逻辑研究结论.md](file:///c:/Users/72998/Desktop/优化版/workflow/v3.0-current/prompts/底层逻辑研究结论.md)
+- [00-工作流3.0-使用说明与改进逻辑.md](prompts/00-工作流3.0-使用说明与改进逻辑.md)
+- [01-Prompt3-选题创作版-3.0.md](prompts/01-Prompt3-选题创作版-3.0.md)
+- [02-融合审查-选题-3.0.md](prompts/02-融合审查-选题-3.0.md)
+- [03-Prompt4-故事创作版-3.0.md](prompts/03-Prompt4-故事创作版-3.0.md)
+- [04-融合审查-故事-3.0.md](prompts/04-融合审查-故事-3.0.md)
+- [05-Prompt5-视觉导演与生图提示词-3.0.md](prompts/05-Prompt5-视觉导演与生图提示词-3.0.md)
+- [06-跨文件合同与术语表.md](prompts/06-跨文件合同与术语表.md)
+- [07-离线回归测试模板.md](prompts/07-离线回归测试模板.md)
+- [08-删改审计与一致性检查.md](prompts/08-删改审计与一致性检查.md)
+- [底层逻辑研究结论.md](prompts/底层逻辑研究结论.md)
 
 ## 代表作品
-- [works/2026-07-27-v3.0-白雀谷气象站](file:///c:/Users/72998/Desktop/优化版/works/2026-07-27-v3.0-白雀谷气象站)
-- [works/2026-07-28-v3.0-返厂旧手机](file:///c:/Users/72998/Desktop/优化版/works/2026-07-28-v3.0-返厂旧手机)
+- [works/2026-07-27-v3.0-白雀谷气象站](../../works/2026-07-27-v3.0-白雀谷气象站/)
+- [works/2026-07-28-v3.0-返厂旧手机](../../works/2026-07-28-v3.0-返厂旧手机/)
