@@ -4,11 +4,27 @@
 
 ---
 
+## 📌 当前状态 (Current Status)
+
+当前正式使用版本为：
+* [Workflow v3.0](workflow/v3.0-current/)
+
+当前未采用的架构实验：
+* [P³-D v0.2](experiments/2026-08-p3d-v0.2-not-adopted/)
+
+最新工作流复盘研究：
+* [2026年8月工作流再审查](research/2026-08-workflow-reassessment/)
+
+各版本详细状态对比与实施决定请参阅 [WORKFLOW_STATUS.md](WORKFLOW_STATUS.md)。
+
+---
+
 ## 📂 仓库目录架构 (Repository Structure)
 
 ```
 chuangzuo/
 ├─ README.md                     # 本文档：项目定位与全局导航
+├─ WORKFLOW_STATUS.md            # 工作流版本状态与当前决策
 ├─ WORKFLOW_TIMELINE.md          # 工作流演进与作品试验时间线
 │
 ├─ workflow/                     # 提示词工作流模块 (按版本迭代)
@@ -24,6 +40,23 @@ chuangzuo/
 │  └─ v3.0-current/              # 3.0 当前拟真叙事工作流标准体系
 │     ├─ README.md
 │     └─ prompts/
+│
+├─ experiments/                  # 未采用或待验证的工作流实验
+│  └─ 2026-08-p3d-v0.2-not-adopted/ # P³-D v0.2 架构实验 (未采用)
+│     ├─ README.md
+│     ├─ STATUS.md
+│     └─ modules/
+│
+├─ research/                     # 市场研究、内部复盘与架构提案
+│  └─ 2026-08-workflow-reassessment/ # 2026年8月工作流再审查与评估
+│     ├─ README.md
+│     ├─ EVIDENCE_INDEX.md
+│     ├─ 00-overview/
+│     ├─ 01-evidence/
+│     ├─ 02-analysis/
+│     ├─ 03-proposals/
+│     ├─ 04-decisions/
+│     └─ 99-raw-reports/
 │
 ├─ works/                        # 作品创作档案 (按日期与版本归档)
 │  ├─ 2026-07-22-demo-商场撤离图/
@@ -47,19 +80,9 @@ chuangzuo/
 
 ---
 
-## 💡 工作流核心理念 (Workflow Core Principles)
-
-在 v3.0 版本中，工作流已从早期的单套模板拓展为完整的**拟真类型叙事**体系，重点关注五大叙事维度：
-1. **记录门槛**：现实入口是否秒懂，凭证链是否具备物理可信度。
-2. **故事活性**：人物是否具备独立能动性，而非规则机械执行器。
-3. **情绪驱动力**：从单纯微恐/悬疑转向情感变轨与高情绪回报。
-4. **视觉变化**：分镜间景别与视觉焦点的连续推进。
-5. **结构距离**：主动与既有爆款题材拉开差异，防止同质化。
-
----
-
 ## 📖 相关文档与快捷入口
 
+* [工作流版本状态与决策](WORKFLOW_STATUS.md)
 * [工作流演进与作品时间线](WORKFLOW_TIMELINE.md)
 * [v3.0 工作流规范说明](workflow/v3.0-current/README.md)
 * [v2.1 失败复盘报告](workflow/v2.1-rejected/failure-review.md)
